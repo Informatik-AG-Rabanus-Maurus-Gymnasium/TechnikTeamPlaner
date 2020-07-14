@@ -1,0 +1,100 @@
+body{
+    margin: 4em;   
+    background-color: #121212;
+    font-size: 1.25rem;
+    color: #e2e2e2;
+}
+a{
+    display: block;
+
+    background-color: #9D2032;
+    color: #fff;
+    text-decoration: none;
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+    margin: 2px;
+    float: left;
+}
+.label-text{
+    font-size: 0.8rem;
+}
+a:hover{
+    background-color: #A0A1A2
+}
+
+
+table input{
+    width:100%;
+    padding: 0;
+    
+}
+table td{
+    padding: 5px;
+    font-size: 	1rem !important;
+}
+
+tr{
+    background-color: none;
+}
+.Calendar tr:nth-child(2n+3){
+    background-color: #616161;
+}
+
+input[type="checkbox"]:checked +.label-text{
+    color: #9D2032;
+}
+input[type="submit"]{
+    background-color:  #9D2032;
+    color: #e2e2e2;
+    border: none;
+}
+
+.Wrapper{
+    background-color: #323232 !important;
+    padding: 4rem;
+    
+}   
+
+ul{
+    list-style: none;
+}
+
+
+#succesfullDataText{
+    font-size: 3.75rem;
+    color: green;
+    border: greenyellow 2px solid;
+    padding: 10%;
+    text-align: center;   
+}
+.centered{
+    position: relative; 
+    top: 50%;
+    left: 50%;
+}
+.menuWrapper{
+   
+    margin-bottom: 10em;
+}
+
+.extrainfo{
+    display: none;
+}
+.extrainfo.enabled{
+    display: block;
+}
+#AdmincontrollPanel{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media screen and (min-width: 768px){
+    body {
+        font-size: 1rem;
+        
+        
+    }
+    
+  }
